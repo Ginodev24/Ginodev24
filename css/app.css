@@ -1,0 +1,69 @@
+a > img{
+	width: 3.2rem;
+	border-radius: 25%;
+}
+
+a{
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+}
+
+.inicio{
+	text-align: center;
+	height: 28rem;
+	align-content: center;
+}
+
+section > h2,
+footer >  h2 {
+	text-transform: uppercase;
+	border-bottom: #198754 double 5px;
+	text-align: center;
+}
+
+.divider{
+	height: 3.5rem;
+}
+
+.card-body > h5{
+	text-align: center;
+	font-weight: 700;
+	color: #198754 !important;
+}
+
+.card-body > h5 + p {
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+output{
+	width: 100%;
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	border-bottom: solid 1px #198754;
+	margin-bottom: 15px;	
+}
+
+output + ul > li{
+	font-size: 1.1rem;
+	list-style:none
+}
+
+i{
+	color: #198754;
+	font-size: 2rem;
+}
+
+footer > h2{
+	color: #198754;
+}
+
+/* Media queries */
+/* @media screen and (max-width:767px) {
+	main > section:nth-child(1){
+		min-height: 300px;	
+	}
+}  */
